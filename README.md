@@ -46,9 +46,9 @@ Try clicking one friend once only to gain score, every time you click a friend's
 
 ## Methods
 Functions are defined within app.js since they should be triggerd when event happens on the main page. Page render changes are achieved by changing the states.
-Note that
+Note that:
 - **don't make change directly with the state, make a local copy of the state, modify it, and assign it back to state**
-- **use "this" keyword to bind methods and state
+- **use "this" keyword to bind methods and state**
 
 
 ## Display of the game
