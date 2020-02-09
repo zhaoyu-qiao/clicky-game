@@ -1,23 +1,25 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 
-  const footer = {
-    backgroundColor: "black",
-  
-  };
-  
-
+const footer = {
+  Width:"100%",
+  height:"100%",
+  padding:"20px"
+};
 
 function Footer() {
   return (
     <div>
-      
-          <li className="brand">
-            <a id="a" href="/">
-              Clicky Game{" "}
-            </a>{" "}
-          </li>{" "}
+      <footer className="page-footer font-small special-color-dark" style={footer}>
           
+              <a id="af"
+                className="btn-floating btn-dribbble mx-1"
+                href="https://github.com/zhaoyu-qiao/clicky-game"
+              >
+                Here's the Github Link
+              </a>
+        
+      </footer>
     </div>
   );
 }
