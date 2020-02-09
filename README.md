@@ -62,7 +62,7 @@ Note that:
 
 
 
-##This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Below are some react notes for reference.
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Below are some react notes for reference.
 
 ### Available Scripts
 
