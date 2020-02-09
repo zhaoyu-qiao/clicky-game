@@ -1,8 +1,9 @@
 # Clicky Game
-Try clicking one friend once only to gain score, every time you click a friend's card, the order of the friend cards will shuffle. If you click the same friend twice the game will reset! Check out your top scrore at the Top bar!
+
 
 ## Introduction
-This is an app powered by react on the front end, and a json file as its API
+This is an app powered by react on the front end, and a json file as its API.
+Try clicking one friend once only to gain score, every time you click a friend's card, the order of the friend cards will shuffle. If you click the same friend twice the game will reset! Check out your top scrore at the Top bar!
  
 ## Components
 - Wrapper
@@ -16,7 +17,7 @@ This is an app powered by react on the front end, and a json file as its API
 
 ![Structure](/public/assets/images/structure.png)
 
-To get a better look at the structure of the components, below is the app jsx:
+### To get a better look at the structure of the components, below is the app jsx:
 
 ```
 <Wrapper>
@@ -52,8 +53,11 @@ Note that
 
 ## Display of the game
 
+### Launching Page
 ![Launching page](/public/assets/images/initial.png)
+### After click
 ![Shuffling](/public/assets/images/shuffle.png)
+### If you click one friend twice
 ![Highscore](/public/assets/images/highscore.png)
 
 
