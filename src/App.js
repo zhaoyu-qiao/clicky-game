@@ -4,14 +4,12 @@ import Footer from "./components/Footer/index";
 import Wrapper from "./components/Wrapper";
 import Container from "./components/Container";
 import friends from "./friends.json";
-//import Counter from "./components/Counter";
 import FriendCard from "./components/FriendCard";
 import Title from "./components/Title";
 
-//import logo from "./logo.svg";
 
 import "./App.css";
-import { render } from "@testing-library/react";
+
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -21,6 +19,11 @@ class App extends Component {
     highscore: 0,
     animation: "none"
   };
+  bottom= {
+    position: "absolute",
+    bottom: "0px",
+    width: "100%"
+  }
 
   handleClick = id => {
     // Filter this.state.friends for friends with an id not equal to the id being removed
@@ -136,7 +139,7 @@ class App extends Component {
             />
           ))}{" "}
         </Container>{" "}
-        <Footer />
+        <Footer style={this.bottom}/>
       </Wrapper>
     );
   }

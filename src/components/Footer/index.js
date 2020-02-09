@@ -1,13 +1,23 @@
 import React from "react";
+import "./style.css"
+
+  const footer = {
+    backgroundColor: "black",
+  
+  };
+  
+
 
 function Footer() {
   return (
     <div>
-      <footer className="footer"  style={{height:100}}>
-        <div className="bottom">
-          Clicky Game! <img alt="react" src="assets/images/react.svg" />
-        </div>{" "}
-      </footer>{" "}
+      
+          <li className="brand">
+            <a id="a" href="/">
+              Clicky Game{" "}
+            </a>{" "}
+          </li>{" "}
+          
     </div>
   );
 }

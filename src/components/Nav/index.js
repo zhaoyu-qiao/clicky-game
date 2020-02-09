@@ -3,11 +3,7 @@ import "./style.css";
 const navbar = {
   backgroundColor: "black"
 };
-// const rainbow1 = {background-image: "linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red)"};
-// const rainbow2 = {-webkit-background-clip: "text"};
-// const rainbow3 = {-webkit-text-fill-color: "transparent"};
 
-//#c35b6c   #f9ec62
 function Nav(props) {
   return (
     <div>

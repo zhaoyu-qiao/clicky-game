@@ -1,7 +1,5 @@
 import React from "react";
 import "./style.css";
-//import friends from "../friends.json";
-import { render } from "@testing-library/react";
 
 // if non of them is clicked, on click, score +1, shuffle, change isclicked to true
 // if the one that's clicked has isclicked to true, reset score, reset game, css shake
